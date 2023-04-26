@@ -1,0 +1,56 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sub-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.heading {
+  margin-bottom: 30px;
+  color: #0f172a;
+}
+
+.count-checking {
+  color: #334155;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #ffffff;
+  padding: 6px;
+  width: 120px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border-style: none;
+}
+
+.bottom-text {
+  color: #1e293b;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .sub-container {
+    width: 90vw;
+  }
+}
